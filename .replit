@@ -75,3 +75,4 @@ support = true
 [deployment]
 deploymentTarget = "static"
 publicDir = "static"
+build = ["sh", "-c", "npm run build"]

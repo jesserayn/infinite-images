@@ -76,3 +76,11 @@ support = true
 deploymentTarget = "static"
 publicDir = "static"
 build = ["sh", "-c", "npm run build"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[[ports]]
+localPort = 3333
+externalPort = 3000

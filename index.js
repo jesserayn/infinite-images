@@ -17,7 +17,7 @@ app.use(express.static('static', { maxAge: YEAR }))
 app.options('*', cors(corsOptions));
 
 app.get('/', (req, res) => {
-  res.send('Replit Docs Image Server')
+  res.send('https://infiniteways.io images')
 });
 
 app.listen(3000, () => {
